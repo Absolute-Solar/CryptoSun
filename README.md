@@ -1,5 +1,4 @@
-# CryptoSun
-CryptoCurrency Project for CryptoSun
+# CryptoSun 02/22/2025 - [Authors: Nick Gonzales,]
 CryptoSun (CSN)
 ![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)
 
