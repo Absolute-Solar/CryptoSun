@@ -89,11 +89,11 @@ Install Dependencies:
     cargo build --release
     npm install
     
-Setting up Solana Validator
+Setting up Solana Validator:
 
-install phantom wallet:
+install phantom wallet
 <a> https://phantom.com/</a> 
-<a> https://docs.anza.xyz/operations/setup-a-validator </a> 
+<a> https://docs.anza.xyz/operations/setup-a-validator</a> 
 
     solana-test-validator
     
