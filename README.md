@@ -16,39 +16,35 @@ Current Tokenomics
 
 Features
 
-Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
-
-Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
-
-Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc. (Completed)
-
-Smart Contracts: Rust-based, Managing token operations, Staking, Governance, and more. (Future Development)
-
-Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties. (Future Development)
-
-Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
+    Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
+    Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
+    Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc. (Completed)
+    Smart Contracts: Rust-based, Managing token operations, Staking, Governance, and more. (Future Development)
+    Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties. (Future Development)
+    Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
 
 
 Technical Details
 
-Blockchain: Solana
-Throughput: ~65,000 TPS (peak 700,000 TPS)
-Cryptography: Ed25519 (128-bit security)
-Consensus: Proof of History (PoH) + Proof of Stake (PoS) + Tower BFT
-Programming: Rust, compiled to BPF bytecode
-Serialization: Borsh (150-200 byte tx size)
-Fees: Base 0.000005 SOL/signature, prioritization adjustable
+    Blockchain: Solana
+    Throughput: ~65,000 TPS (peak 700,000 TPS)
+    Cryptography: Ed25519 (128-bit security)
+    Consensus: Proof of History (PoH) + Proof of Stake (PoS) + Tower BFT
+    Programming: Rust, compiled to BPF bytecode
+    Serialization: Borsh (150-200 byte tx size)
+    Fees: Base 0.000005 SOL/signature, prioritization adjustable
 
 Smart Contracts
 
-Token: Defines CSN (100M supply, 9 decimals, 1M CSN/year minting).
-Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor).
-Governance: 4M CSN, vested Months 13-24, 2/3 vote consensus.
-Burn: Reduces supply (e.g., 3.5M CSN/year by Year 6).
-Dividend: Airdrops based on Dividends through Company revenue.
-Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
+    Token: Defines CSN (100M supply, 9 decimals, 1M CSN/year minting).
+    Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor).
+    Governance: 4M CSN, vested Months 13-24, 2/3 vote consensus.
+    Burn: Reduces supply (e.g., 3.5M CSN/year by Year 6).
+    Dividend: Airdrops based on Dividends through Company revenue.
+    Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
 
-Installation
+
+# Installation
 Download Dependencies
 
     Rust: cargo --version >= 1.70
