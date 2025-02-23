@@ -79,10 +79,10 @@ Quick Install
 
 # Setup(Bash)
 
-Clone the Repository:
-    
-    git clone https://github.com/AbsoluteSolarCrypto/CSN.git
-    cd CSN
+Clone the Repository:  
+- git clone https://github.com/AbsoluteSolarCrypto/CSN.git
+
+      cd CSN
 
 Install Dependencies:
     
