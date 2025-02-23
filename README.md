@@ -63,7 +63,7 @@ Smart Contracts
     Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
 
 
-# Installation
+# Installation(Linux) - If using Windows Use WSL
 Download Dependencies
 
     Rust: cargo --version >= 1.70
@@ -72,8 +72,10 @@ Download Dependencies
     Git: git --version
 
 Quick Install 
+<a>https://solana.com/docs/intro/installation</a>
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
+    
 
 # Setup(Bash)
 
@@ -86,10 +88,14 @@ Install Dependencies:
     
     cargo build --release
     npm install
+    
+Setting up Solana Validator
+
+    
 
 Configure Solana:
     
-    solana config set --url https://api.mainnet-beta.solana.com
+    solana config set --url https://api.devnet-beta.solana.com
     solana-keygen new
 
 Deploy Contracts:
