@@ -24,7 +24,7 @@ CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev
     Q2 2027: AI-driven staking
     2028-2030: Global scale (1M panels, 10M users)(USA Operations)
 
-Current Tokenomics
+# Current Tokenomics
     
     Token: CSN
     Initial Supply: 100,000,000 CSN
@@ -33,7 +33,7 @@ Current Tokenomics
     Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
 
 
-Features
+# Features
 
     Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
     Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
@@ -43,7 +43,7 @@ Features
     Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
 
 
-Technical Details
+# Technical Details
 
     Blockchain: Solana
     Throughput: ~65,000 TPS (peak 700,000 TPS)
@@ -53,7 +53,7 @@ Technical Details
     Serialization: Borsh (150-200 byte tx size)
     Fees: Base 0.000005 SOL/signature, prioritization adjustable
 
-Smart Contracts
+# Smart Contracts
 
     Token: Defines CSN (100M supply, 9 decimals, 1M CSN/year minting).
     Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor).
@@ -64,15 +64,14 @@ Smart Contracts
 
 
 # Installation(Linux) - If using Windows Use WSL
-Download Dependencies
+Download Dependencies:
 
     Rust: cargo --version >= 1.70
     Solana CLI: solana --version >= 1.18
     Node.js: node --version >= 16 (for tools)
     Git: git --version
 
-Quick Install 
-<a>https://solana.com/docs/intro/installation</a>
+Quick Install <a>https://solana.com/docs/intro/installation</a>
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
     
@@ -128,7 +127,7 @@ Security
     Bounties: Report vulnerabilities to earn $1,000-$50,000 (CSN).
     Contact: devnickk@proton.me
 
-License
+# License
 This project is licensed under the MIT License. See LICENSE for details.
 Resources
 
