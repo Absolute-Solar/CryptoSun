@@ -78,7 +78,7 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
 
 # Setup(Bash)
 
-Clone the Repository:  
+<h1>Clone the Repository:</h1>  
 git clone <a>https://github.com/rednickk1/CryptoSun.git</a>
 
     cd CrytpoSun
