@@ -84,7 +84,7 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
 <p>Configure Solana</p>
 <p>Deploy Contracts</p>
 
-<h2>Clone the Repository:</h2>  
+<h3>Clone the Repository:</h3>  
 git clone <a>https://github.com/rednickk1/CryptoSun.git</a>
 
     cd CrytpoSun
