@@ -17,14 +17,21 @@ Initial Market Cap: $20,000 ($0.001/CSN)
 
 Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
 
+
 Features
 
 Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
+
 Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
+
 Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc. (Completed)
+
 Smart Contracts: Rust-based, Managing token operations, Staking, Governance, and more. (Future Development)
+
 Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties. (Future Development)
+
 Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
+
 
 Technical Details
 
