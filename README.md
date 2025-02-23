@@ -79,9 +79,9 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
 # Setup(Bash)
 
 Clone the Repository:  
-git clone https://github.com/AbsoluteSolarCrypto/CSN.git
+git clone <a>https://github.com/rednickk1/CryptoSun.git</a>
 
-    cd CSN
+    cd CrytpoSun
 
 Install Dependencies:
     
