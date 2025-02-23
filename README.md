@@ -69,6 +69,10 @@ Download Dependencies
     Node.js: node --version >= 16 (for tools)
     Git: git --version
 
+Quick Install 
+
+    curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
+
 Setup(Bash)
 
 Clone the Repository:
