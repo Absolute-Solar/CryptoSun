@@ -84,21 +84,21 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
 <p>Configure Solana</p>
 <p>Deploy Contracts</p>
 
-<h3>Clone the Repository:</h3>  
+<h2>Clone the Repository:</h2>  
 git clone <a>https://github.com/rednickk1/CryptoSun.git</a>
 
     cd CrytpoSun
 
-Install Dependencies:
+<h2>Install Dependencies:</h2>
     
     cargo build --release
     npm install
 
-Setting up Next.js Environment:
+<h2>Setting up Next.js Environment:</h2>
 
     npx create-solana-dapp
 
-Configure Next.js:
+<h2>Configure Next.js:</h2>
 
     Project name:
     Preset:
@@ -106,13 +106,13 @@ Configure Next.js:
     Anchor Template:
     cd /your-project-directory
 
-Web Front End:
+<h2>Web Front End:</h2>
 
     npm i
     npm run dev
 <a>http://localhost:3000</a>
 
-Setting up Solana Validator:
+<h2>Setting up Solana Validator:</h2>
 
 install phantom wallet
 <a>https://phantom.com/</a>
@@ -120,16 +120,16 @@ Change to devnet or testnet
 
     solana-test-validator
 
-Configure Solana:
+<h2>Configure Solana:</h2>
     
     solana config set --url https://api.devnet-beta.solana.com
     solana-keygen new
 
-Deploy Contracts:
+<h2>Deploy Contracts:</h2>
 
     solana program deploy target/deploy/csn_token.so
 
-Usage:
+<h2>Usage:</h2>
 
     Compile: cargo build 
     Test: cargo test
