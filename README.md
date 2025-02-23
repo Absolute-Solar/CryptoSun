@@ -1,5 +1,6 @@
 
-# CryptoSun (CSN)
+
+<p align='center'># CryptoSun (CSN)</p>
 ![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)
 
 A (DePIN) Token on Solana integrating solar energy, heating, and blockchain utility mixed with real-world energy utility.
