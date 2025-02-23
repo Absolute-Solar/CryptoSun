@@ -7,15 +7,11 @@ CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev
 
 Current Tokenomics
     
-Token: CSN
-
-Initial Supply: 100,000,000 CSN
-
-Circulating at Launch: 19,600,000 CSN
-
-Initial Market Cap: $20,000 ($0.001/CSN)
-
-Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
+    Token: CSN
+    Initial Supply: 100,000,000 CSN
+    Circulating at Launch: 19,600,000 CSN
+    Initial Market Cap: $20,000 ($0.001/CSN)
+    Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
 
 
 Features
