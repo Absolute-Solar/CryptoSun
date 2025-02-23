@@ -1,6 +1,6 @@
 # <p align="center">  CryptoSun (CSN) </p>
 
-![Crypto Sun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)
+<p align="center"><img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4" alt="CryptoSun Logo" width="200"></p>
 
 
 # Overview
