@@ -87,7 +87,25 @@ Install Dependencies:
     
     cargo build --release
     npm install
-    
+
+Setting up Next.js Environment:
+
+    npx create-solana-dapp
+
+Configure Next.js:
+
+    Project name:
+    Preset:
+    UI Lib:
+    Anchor Template:
+    cd /your-project-directory
+
+Web Front End:
+
+    npm i
+    npm run dev
+<a>http://localhost:3000</a>
+
 Setting up Solana Validator:
 
 install phantom wallet
@@ -95,7 +113,7 @@ install phantom wallet
 Change to devnet or testnet
 
     solana-test-validator
-    
+
 Configure Solana:
     
     solana config set --url https://api.devnet-beta.solana.com
