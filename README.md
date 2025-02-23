@@ -69,29 +69,25 @@ Download Dependencies
     Node.js: node --version >= 16 (for tools)
     Git: git --version
 
-Setup
+Setup(Bash)
 
 Clone the Repository:
     
-    bash
     git clone https://github.com/AbsoluteSolarCrypto/CSN.git
     cd CSN
 
 Install Dependencies:
     
-    bash
     cargo build --release
     npm install
 
 Configure Solana:
     
-    bash
     solana config set --url https://api.mainnet-beta.solana.com
     solana-keygen new
 
 Deploy Contracts:
 
-    bash
     solana program deploy target/deploy/csn_token.so
 
 Usage:
@@ -105,7 +101,7 @@ Usage:
         const { PublicKey, Transaction } = require('@solana/web3.js');
         // Add transfer logic here
 
-
+# Contributions
 Contributing (Currently only Absolute Solars Dev Team possible open-source after Launch)
 Open-source Devs! Please follow these steps:
 //removed bullet points here//
