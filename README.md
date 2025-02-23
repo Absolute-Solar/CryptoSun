@@ -73,7 +73,7 @@ Quick Install
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
 
-Setup(Bash)
+# Setup(Bash)
 
 Clone the Repository:
     
