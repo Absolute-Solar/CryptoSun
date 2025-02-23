@@ -1,4 +1,4 @@
-# |: CryptoSun (CSN) :|
+<p align="center"> # CryptoSun (CSN) </p>
 ![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)
 
 # Overview
@@ -96,7 +96,7 @@ Deploy Contracts:
 
 Usage:
 
-    Compile: cargo build --release
+    Compile: cargo build 
     Test: cargo test
     Interact: Use Solana CLI or SDK (e.g., @solana/web3.js) to call contracts.
         Example: Transfer CSN
