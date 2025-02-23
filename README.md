@@ -80,9 +80,9 @@ Quick Install
 # Setup(Bash)
 
 Clone the Repository:  
-- git clone https://github.com/AbsoluteSolarCrypto/CSN.git
+git clone https://github.com/AbsoluteSolarCrypto/CSN.git
 
-      cd CSN
+    cd CSN
 
 Install Dependencies:
     
@@ -91,11 +91,12 @@ Install Dependencies:
     
 Setting up Solana Validator
 
-- install phantom wallet
-- <a> https://phantom.com/ </a> 
-    
-    
+install phantom wallet
+<a> https://phantom.com/ </a> 
+<a> https://docs.anza.xyz/operations/setup-a-validator <a> 
 
+    solana-test-validator
+    
 Configure Solana:
     
     solana config set --url https://api.devnet-beta.solana.com
