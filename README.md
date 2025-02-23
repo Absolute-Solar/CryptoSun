@@ -5,6 +5,23 @@ A (DePIN) Token on Solana integrating solar energy, heating, and blockchain util
 Overview
 CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev team(Currently:Nickalos Gonzales,), built on the Solana blockchain to tokenize solar energy for heating, bitcoin mining, and peer-to-peer economic empowerment. Leveraging Solana’s high-throughput, CSN powers a sustainable ecosystem with staking rewards, quarterly dividends, and governance rights. The project aims to redefine renewable energy infrastructure through blockchain, delivering real-world utility and financial incentives.
 
+Roadmap
+
+    Q3 2025: Core platform & token launch Full integration in Website.
+    Q3 2025: Buying, Selling, Transfer Go Live on DEX!
+    Q3 2025: Staking and Burning Implementaion 
+    Q4 2025: Governance Features Implemented for Staking & Burning
+    Q4 2025: Governance Integration with website
+    Q4 2026: Dividend Features Implementation
+    Q1 2026: Automated Mainteance & Rewards Features 
+    Q2 2026: Energy Trading Features
+    Q2 2026: Try to get listed on a CEX
+    Q3 2026: Govenance Features Where needed
+    Q4 2026: DeFi expansion
+    Q1 2027: Cross-chain bridges
+    Q2 2027: AI-driven staking
+    2028-2030: Global scale (1M panels, 10M users)(USA Operations)
+
 Current Tokenomics
     
     Token: CSN
@@ -54,30 +71,30 @@ Download Dependencies
 
 Setup
 
-    Clone the Repository:
+Clone the Repository:
+    
     bash
-
-git clone https://github.com/AbsoluteSolarCrypto/CSN.git
-cd CSN
+    git clone https://github.com/AbsoluteSolarCrypto/CSN.git
+    cd CSN
 
 Install Dependencies:
-bash
-
-cargo build --release
-npm install
+    
+    bash
+    cargo build --release
+    npm install
 
 Configure Solana:
-bash
-
-solana config set --url https://api.mainnet-beta.solana.com
-solana-keygen new
+    
+    bash
+    solana config set --url https://api.mainnet-beta.solana.com
+    solana-keygen new
 
 Deploy Contracts:
-bash
 
+    bash
     solana program deploy target/deploy/csn_token.so
 
-Usage
+Usage:
 
     Compile: cargo build --release
     Test: cargo test
@@ -88,23 +105,14 @@ Usage
         const { PublicKey, Transaction } = require('@solana/web3.js');
         // Add transfer logic here
 
-Roadmap
 
-    Q2 2025: Core platform launch
-    Q4 2025: IoT integration (10k panels)
-    Q2 2026: Energy trading (100k users)
-    Q4 2026: DeFi expansion ($10M TVL)
-    Q2 2027: Cross-chain bridges
-    Q4 2027: AI-driven staking
-    2028-2030: Global scale (1M panels, 10M users)
-
-Contributing
-We welcome contributions! Please follow these steps:
+Contributing (Currently only Absolute Solars Dev Team possible open-source after Launch)
+Open-source Devs! Please follow these steps:
 //removed bullet points here//
 Fork the repository and create a feature branch with your changes. Ensure code adheres to Rust best practices and Solana’s security standards. Submit a pull request with a clear description of your contribution. Issues can be reported via GitHub Issues—focus on bugs, feature requests, or security enhancements.
 Security
 
-    Audits: Conducted by CyberScope and CertiK.
+    Audits: Conducted by CyberScope and CertiK or reputable sources.
     Bounties: Report vulnerabilities to earn $1,000-$50,000 (CSN).
     Contact: devnickk@proton.me
 
@@ -116,3 +124,4 @@ Resources
     Whitepaper: CSN Whitepaper
     Solana Docs: docs.solana.com
     Contact: devnickk@proton.me
+    @Absolute Solar & Crypto inc.
