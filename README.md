@@ -1,30 +1,33 @@
 # CryptoSun (CSN) 
 
-![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)
-A decentralized physical infrastructure network (DePIN) on Solana integrating solar energy, heating, and blockchain utility.
-Overview
-CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc., built on the Solana blockchain to tokenize solar energy for heating, bitcoin mining, and peer-to-peer economic empowerment. Leveraging Solana’s high-throughput capabilities (65,000 TPS), CSN powers a sustainable ecosystem with staking rewards, quarterly dividends, and governance rights. The project aims to redefine renewable energy infrastructure through blockchain, delivering real-world utility and financial incentives.
+![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)  
 
+A (DePIN) Token on Solana integrating solar energy, heating, and blockchain utility mixed with real-world energy utility.
+Overview
+CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev team(Currently:Nickalos Gonzales,), built on the Solana blockchain to tokenize solar energy for heating, bitcoin mining, and peer-to-peer economic empowerment. Leveraging Solana’s high-throughput, CSN powers a sustainable ecosystem with staking rewards, quarterly dividends, and governance rights. The project aims to redefine renewable energy infrastructure through blockchain, delivering real-world utility and financial incentives.
+
+Current Tokenomics
+    
     Token: CSN
     Initial Supply: 100,000,000 CSN
     Circulating at Launch: 19,600,000 CSN
     Initial Market Cap: $20,000 ($0.001/CSN)
-    Utility: Staking, energy trading, governance
+    Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
 
 Features
 
-    Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces.
-    Economic Model: Hybrid— inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6.
-    Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc.
-    Smart Contracts: Rust-based, audited by CyberScope and CertiK, managing token operations, staking, governance, and more.
-    Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties.
-    Roadmap: IoT integration (Q4 2025), DeFi expansion (Q4 2026), global scaling (2030: 100 MW, $100M valuation).
+    Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
+    Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
+    Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc. (Completed)
+    Smart Contracts: Rust-based, Managing token operations, Staking, Governance, and more. (Future Development)
+    Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties. (Future Development)
+    Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
 
 Technical Details
 
     Blockchain: Solana
     Throughput: ~65,000 TPS (peak 700,000 TPS)
-    Cryptography: Ed25519 (128-bit security, 50-60 μs signing)
+    Cryptography: Ed25519 (128-bit security)
     Consensus: Proof of History (PoH) + Proof of Stake (PoS) + Tower BFT
     Programming: Rust, compiled to BPF bytecode
     Serialization: Borsh (150-200 byte tx size)
@@ -36,10 +39,11 @@ Smart Contracts
     Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor).
     Governance: 4M CSN, vested Months 13-24, 2/3 vote consensus.
     Burn: Reduces supply (e.g., 3.5M CSN/year by Year 6).
-    Future: Energy trading (LMP pricing), maintenance (IoT-driven).
+    Dividend: Airdrops based on Dividends through Company revenue.
+    Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
 
 Installation
-Prerequisites
+Download Dependencies
 
     Rust: cargo --version >= 1.70
     Solana CLI: solana --version >= 1.18
