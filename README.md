@@ -1,7 +1,7 @@
 # CryptoSun (CSN) 
-
+<div style="text-align: center;">
 ![CryptoSun Logo](https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4)  
-
+</div>
 A (DePIN) Token on Solana integrating solar energy, heating, and blockchain utility mixed with real-world energy utility.
 Overview
 CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev team(Currently:Nickalos Gonzales,), built on the Solana blockchain to tokenize solar energy for heating, bitcoin mining, and peer-to-peer economic empowerment. Leveraging Solana’s high-throughput, CSN powers a sustainable ecosystem with staking rewards, quarterly dividends, and governance rights. The project aims to redefine renewable energy infrastructure through blockchain, delivering real-world utility and financial incentives.
