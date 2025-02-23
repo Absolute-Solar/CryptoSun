@@ -77,12 +77,12 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
     
 
 # Setup(Bash)
-Clone Repo
-Install dependencies
-Set up Next.js
-Set up Node
-Configure Solana
-Deploy Contracts
+<p>Clone Repo</p>
+<p>Install dependencies</p>
+<p>Set up Next.js</p>
+<p>Set up Node</p>
+<p>Configure Solana</p>
+<p>Deploy Contracts</p>
 
 <h2>Clone the Repository:</h2>  
 git clone <a>https://github.com/rednickk1/CryptoSun.git</a>
