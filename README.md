@@ -92,9 +92,8 @@ Install Dependencies:
 Setting up Solana Validator:
 
 install phantom wallet
-<a> https://phantom.com/</a>
-Solana Validator Docs
-<a> https://docs.anza.xyz/operations/setup-a-validator</a> 
+<a>https://phantom.com/</a>
+Change to devnet or testnet
 
     solana-test-validator
     
