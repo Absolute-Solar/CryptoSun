@@ -82,17 +82,17 @@ Quick Install
 Clone the Repository:
     
     git clone https://github.com/AbsoluteSolarCrypto/CSN.git
-    
     cd CSN
 
 Install Dependencies:
     
     cargo build --release
-    
     npm install
     
 Setting up Solana Validator
 
+- install phantom wallet
+- <a> https://phantom.com/ </a> 
     
     
 
