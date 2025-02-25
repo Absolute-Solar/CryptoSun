@@ -61,8 +61,7 @@ CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev
     Dividend: Airdrops based on Dividends through Company revenue.
     Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
 
-
-<p></p>
+<br>
 
 # Installation(Windows)
 Ref: <a>https://learn.microsoft.com/en-us/windows/wsl/install<a>
