@@ -9,19 +9,18 @@ CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev
 
 # Roadmap
 
-    Q3 2025: Core platform & token launch Full integration in Website.
-    Q3 2025: Buying, Selling, Transfer Go Live on DEX!
-    Q3 2025: Staking and Burning Implementaion 
+    Q3 2025: Core platform & token launch Full integration in Website Buying, Selling, Transfer Go Live on DEX!
+    Q3 2025: Staking and Burning Implementaion
+    Q4 2026: Try to get listed on a CEX
     Q4 2025: Governance Features Implemented for Staking & Burning
     Q4 2025: Governance Integration with website
-    Q4 2026: Dividend Features Implementation
-    Q1 2026: Automated Mainteance & Rewards Features 
-    Q2 2026: Energy Trading Features
-    Q2 2026: Try to get listed on a CEX
-    Q3 2026: Govenance Features Where needed
-    Q4 2026: DeFi expansion
-    Q1 2027: Cross-chain bridges
-    Q2 2027: AI-driven staking
+    Q1 2026: Dividend Features Implementation
+    Q3 2026: Automated Mainteance & Rewards Features 
+    Q1 2027: Energy Trading Features
+    Q3 2027: Govenance Features Where needed
+    Q1 2028: DeFi expansion
+    Q1 2028: Cross-chain bridges
+    Q3 2028: AI-driven staking
     2028-2030: Global scale (1M panels, 10M users)(USA Operations)
 
 # Current Tokenomics
