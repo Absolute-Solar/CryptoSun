@@ -86,10 +86,17 @@ Ref: <a>https://learn.microsoft.com/en-us/windows/wsl/install<a>
     wsl
 Now follow the rest of the Linux installation
 
-# Installation(Linux) 
+<br>
+<br>
+<br>
+
+# Installation(Linux)
+
+<br>
 Download VS Code:
 Ref: <a>https://code.visualstudio.com/download</a>
 
+<br>
 Download Dependencies:
 
     Rust: cargo --version >= 1.70
@@ -98,45 +105,55 @@ Download Dependencies:
     Git: git --version
     Anchor CLI: anchor --version
 
+<br>
 Quick Install <a>https://solana.com/docs/intro/installation</a>
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
 
+<br>
 Download Rust:
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-    
+
+<br>    
 Run the following command to reload your PATH environment variable to include Cargo's bin directory:
 
     . "$HOME/.cargo/env"
 
+<br>
 To verify that the installation was successful, check the Rust version:
 
     rustc --version
 
+<br>
 Install the Solana CLI:
 
     sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
+<br>
 Add Path variable: 
 
     export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
     solana --version
 
+<br>
 To update:
 
     agave-install update
 
+<br>
 Install Anchor CLI:
 
     cargo install --git https://github.com/coral-xyz/anchor avm --force
     avm --version
 
+<br>
 To Update: 
 
     avm install latest
     avm use latest
 
+<br>
 Node install:
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
@@ -153,24 +170,25 @@ Node install:
     solana config set --url localhost
     solana config set --url testnet
 
+<br>
 Create a wallet: 
 
     solana-keygen new
     solana address
 
+<br>
 Airdrop SOL:
 
     solana config set -ud
     solana airdrop 2
     solana balance
-    
+
+<br>    
 Run Local Validator:
 
     solana-test-validator
     solana config set -ul
     
-
-
 <br>
 <br>
 <br>
@@ -183,20 +201,24 @@ Run Local Validator:
 <p>Configure Solana</p>
 <p>Deploy Contracts</p>
 
+<br>
 Clone the Repository: 
 
     git clone https://github.com/rednickk1/CryptoSun.git
     cd CrytpoSun
 
+<br>
 Install Dependencies:
     
     cargo build --release
     npm install
 
+<br>
 Setting up Next.js Environment:
 
     npx create-solana-dapp
 
+<br>
 Configure Next.js:
 
     Project name:
@@ -205,12 +227,14 @@ Configure Next.js:
     Anchor Template:
     cd /your-project-directory
 
+<br>
 Web Front End:
 
     npm i
     npm run dev
-<a>http://localhost:3000</a>
+Will now be running on localhost: <a>http://localhost:3000</a>
 
+<br>
 <br>
 <br>
 
@@ -218,19 +242,24 @@ Web Front End:
 
 install phantom wallet
 <a>https://phantom.com/</a>
-Change to devnet or testnet
+
+<br>
+Change to devnet or testnet then run on terminal:
 
     solana-test-validator
 
+<br>
 Configure Solana:
     
     solana config set --url https://api.devnet-beta.solana.com
     solana-keygen new
 
+<br>
 Deploy Contracts:
 
     solana program deploy target/deploy/csn_token.so
 
+<br>
 Usage:
 
     Compile: cargo build 
