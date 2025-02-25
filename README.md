@@ -197,6 +197,8 @@ Web Front End:
     npm run dev
 <a>http://localhost:3000</a>
 
+<br>
+<br>
 Setting up Solana Validator:
 
 install phantom wallet
