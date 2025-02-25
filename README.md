@@ -75,6 +75,7 @@ CryptoSun (CSN) is a utility token developed by Absolute Solar & Crypto Inc. Dev
 <a>https://blog.networkchuck.com/posts/create-a-solana-token/</a><br>
 <a>https://docs.anza.xyz/cli/install</a><br>
 <a>https://beta.solpg.io/</a><br>
+<a>https://education.github.com/git-cheat-sheet-education.pdf</a><br>
 
 <br>
 <br>
