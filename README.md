@@ -169,21 +169,21 @@ Run Local Validator:
 <p>Configure Solana</p>
 <p>Deploy Contracts</p>
 
-<h2>Clone the Repository:</h2>  
+Clone the Repository: 
 
     git clone https://github.com/rednickk1/CryptoSun.git
     cd CrytpoSun
 
-<h2>Install Dependencies:</h2>
+Install Dependencies:
     
     cargo build --release
     npm install
 
-<h2>Setting up Next.js Environment:</h2>
+Setting up Next.js Environment:
 
     npx create-solana-dapp
 
-<h2>Configure Next.js:</h2>
+Configure Next.js:
 
     Project name:
     Preset:
@@ -191,13 +191,13 @@ Run Local Validator:
     Anchor Template:
     cd /your-project-directory
 
-<h2>Web Front End:</h2>
+Web Front End:
 
     npm i
     npm run dev
 <a>http://localhost:3000</a>
 
-<h2>Setting up Solana Validator:</h2>
+Setting up Solana Validator:
 
 install phantom wallet
 <a>https://phantom.com/</a>
@@ -205,16 +205,16 @@ Change to devnet or testnet
 
     solana-test-validator
 
-<h2>Configure Solana:</h2>
+Configure Solana:
     
     solana config set --url https://api.devnet-beta.solana.com
     solana-keygen new
 
-<h2>Deploy Contracts:</h2>
+Deploy Contracts:
 
     solana program deploy target/deploy/csn_token.so
 
-<h2>Usage:</h2>
+Usage:
 
     Compile: cargo build 
     Test: cargo test
