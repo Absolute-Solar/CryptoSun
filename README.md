@@ -74,17 +74,89 @@ Ref: <a>https://learn.microsoft.com/en-us/windows/wsl/install<a>
 Now follow the rest of the Linux installation
 
 # Installation(Linux) 
+Download VS Code:
+Ref: <a>https://code.visualstudio.com/download</a>
+
 Download Dependencies:
 
     Rust: cargo --version >= 1.70
     Solana CLI: solana --version >= 1.18
     Node.js: node --version >= 16 (for tools)
     Git: git --version
+    Anchor CLI: anchor --version
 
 Quick Install <a>https://solana.com/docs/intro/installation</a>
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
+
+Download Rust:
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     
+Run the following command to reload your PATH environment variable to include Cargo's bin directory:
+
+    . "$HOME/.cargo/env"
+
+To verify that the installation was successful, check the Rust version:
+
+    rustc --version
+
+Install the Solana CLI:
+
+    sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
+
+Add Path variable: 
+
+    export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+    solana --version
+
+To update:
+
+    agave-install update
+
+Install Anchor CLI:
+
+    cargo install --git https://github.com/coral-xyz/anchor avm --force
+    avm --version
+
+To Update: 
+
+    avm install latest
+    avm use latest
+
+Node install:
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+    
+<br>
+<br>
+<br>
+# Solana Basic commands
+
+    solana config get
+    solana config set --url mainnet-beta
+    solana config set --url devnet
+    solana config set --url localhost
+    solana config set --url testnet
+
+Create a wallet: 
+
+    solana-keygen new
+    solana address
+
+Airdrop SOL:
+
+    solana config set -ud
+    solana airdrop 2
+    solana balance
+    
+Run Local Validator:
+
+    solana-test-validator
+    solana config set -ul
+    
+
+
 <br>
 <br>
 <br>
