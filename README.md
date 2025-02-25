@@ -212,7 +212,8 @@ Web Front End:
 
 <br>
 <br>
-Setting up Solana Validator:
+
+# Setting up Solana Validator:
 
 install phantom wallet
 <a>https://phantom.com/</a>
