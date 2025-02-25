@@ -131,7 +131,7 @@ Node install:
 <br>
 <br>
 <br>
-# Solana Basic commands
+# Solana Basic Commands
 
     solana config get
     solana config set --url mainnet-beta
