@@ -85,6 +85,9 @@ Quick Install <a>https://solana.com/docs/intro/installation</a>
 
     curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-developers/solana-install/main/install.sh | bash
     
+<br>
+<br>
+<br>
 
 # Setup(Bash)
 <p>Clone Repo</p>
