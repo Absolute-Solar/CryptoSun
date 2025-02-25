@@ -150,6 +150,10 @@ Change to devnet or testnet
         const { PublicKey, Transaction } = require('@solana/web3.js');
         // Add transfer logic here
 
+<br>
+<br>
+<br>
+
 # Contributions
 Contributing (Currently only Absolute Solars Dev Team possible open-source after Launch)
 Open-source Devs! Please follow these steps:
@@ -160,6 +164,10 @@ Security
     Audits: Conducted by CyberScope and CertiK or reputable sources.
     Bounties: Report vulnerabilities to earn $1,000-$50,000 (CSN).
     Contact: devnickk@proton.me
+
+<br>
+<br>
+<br>
 
 # License
 This project is licensed under the MIT License. See LICENSE for details.
