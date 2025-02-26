@@ -99,6 +99,27 @@ Now follow the rest of the Linux installation
 <br>
 Download VS Code:
 Ref: <a>https://code.visualstudio.com/download</a>
+<br>
+
+VS code Extensions:
+
+    dependi
+    crates
+    dev containers
+    docker
+    github co-pilot
+    github co-pilot chat
+    github pull requests
+    julia
+    material icon theme
+    pine script
+    prettier code
+    rainbow csv
+    react native
+    react-native/react
+    rust
+    rust-syntax
+    rust-analyzer
 
 <br>
 Download Dependencies:
