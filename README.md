@@ -287,6 +287,7 @@ Deploy Contracts:
 <br>
 Usage:
 
+    #![allow(unexpected_cfgs)] to avoid unwanted cfg errors
     Compile: cargo build 
     Test: cargo test
     Interact: Use Solana CLI or SDK (e.g., @solana/web3.js) to call contracts.
