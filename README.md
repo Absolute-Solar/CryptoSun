@@ -18,6 +18,15 @@ Token: Defines CSN Tokenomics. <br>
 
 # Oracles
 
+# Local Setup(Bash)
+<p>Clone Repo</p>
+<p>Install dependencies</p>
+<p>Set up Next.js</p>
+<p>Set up Node</p>
+<p>Configure Solana</p>
+<p>Deploy Contracts</p>
+<p>install phantom wallet</p>
+
 # Codebase:
 <h2>Prerequisites:</h2>
 
@@ -49,15 +58,6 @@ Run Local Validator:
 
     solana-test-validator
     solana config set -ul
-
-# Setup(Bash)
-<p>Clone Repo</p>
-<p>Install dependencies</p>
-<p>Set up Next.js</p>
-<p>Set up Node</p>
-<p>Configure Solana</p>
-<p>Deploy Contracts</p>
-<p>install phantom wallet</p>
 
 # Contributions
 Contributing 
