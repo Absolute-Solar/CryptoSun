@@ -8,7 +8,7 @@
 
 # CryptoSun Beta
 
-    CryptoSun is a renewable energy network bringing programmable Energy to Solana! The DePIN behind CryptoSun transforms tokenized energy into a working breathing token ecosystem. The CSN token is used in tandem with the DePIN system that coverts solar to powering crypto miners and repurposing miners heat. By harnessing these energies on Solanas network you can earn rewards by using the Absolute Solar DePIN packages! Developers and users can be empowered on the network the more they interact such as staking CSN, Voting, and programmer perks. 
+CryptoSun is a renewable energy network bringing programmable Energy to Solana! The DePIN behind CryptoSun transforms tokenized energy into a working breathing token ecosystem. The CSN token is used in tandem with the DePIN system that coverts solar to powering crypto miners and repurposing miners heat. By harnessing these energies on Solanas network you can earn rewards by using the Absolute Solar DePIN packages! Developers and users can be empowered on the network the more they interact such as staking CSN, Voting, and programmer perks. 
 
 
 # Technical Details
