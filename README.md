@@ -2,43 +2,13 @@
 
 <p align="center"><img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafkreicnzpaug4uuvlcehputfus4slesveg4a6gx7y6ehafvqzvp5j2z44" alt="CryptoSun Logo" width="100"></p>
 
-<h1> Design layout </h1>
+# Design layout
 
+<p>Flow diagram here</p>
 
+# CryptoSun Beta
 
-# Roadmap
-
-    Q3 2025: Core platform & token launch Full integration in Website Buying, Selling, Transfer Go Live on DEX!
-    Q3 2025: Staking and Burning Implementaion
-    Q4 2025: Try to get listed on a CEX
-    Q4 2025: Governance Features Implemented for Staking & Burning
-    Q4 2025: Governance Integration with website
-    Q1 2026: Dividend Features Implementation
-    Q3 2026: Automated Mainteance & Rewards Features 
-    Q1 2027: Energy Trading Features
-    Q3 2027: Govenance Features Where needed
-    Q1 2028: DeFi expansion
-    Q1 2028: Cross-chain bridges
-    Q3 2028: AI-driven staking
-    2028-2030: Global scale (1M panels, 10M users)(USA Operations)
-
-# Current Tokenomics
-    
-    Token: CSN
-    Initial Supply: 100,000,000 CSN
-    Circulating at Launch: 19,600,000 CSN
-    Initial Market Cap: $20,000 ($0.001/CSN)
-    Utility: Staking, Energy Trading, Governance, Maintenance/Upkeep, Real-World Solar & Heating Applications
-
-
-# Features
-
-    Solar Energy Integration: Converts excess solar power into CSN via ASIC mining, with heat repurposed for furnaces. (Future Development)
-    Economic Model: Hybrid model. Inflationary (Years 1-2) to deflationary (Year 3+), with burns reducing supply to 92.9M CSN by Year 6. (Completed)
-    Staking Rewards: 42M CSN allocated, 20% quarterly dividends for top stakers from Absolute Solar & Crypto Inc. (Completed)
-    Smart Contracts: Rust-based, Managing token operations, Staking, Governance, and more. (Future Development)
-    Security: Ed25519 cryptography, zero-knowledge proofs, continuous audits, and bug bounties. (Future Development)
-    Roadmap: Token Contract, Staking Contract, Governance Contract, Burn Contract, Dividend Distribution, Maintenance Contract, Energy Trading!, Full Application integration.(Future Development)
+    CryptoSun is a renewable energy network bringing programmable Energy to Solana! The DePIN behind CryptoSun transforms tokenized energy into a working breathing token ecosystem. The CSN token is used in tandem with the DePIN system that coverts solar to powering crypto miners and repurposing miners heat. By harnessing these energies on Solanas network you can earn rewards by using the Absolute Solar DePIN packages! Developers and users can be empowered on the network the more they interact such as staking CSN, Voting, and programmer perks. 
 
 
 # Technical Details
@@ -50,6 +20,7 @@
     Programming: Rust, compiled to BPF bytecode
     Serialization: Borsh (150-200 byte tx size)
     Fees: Base 0.000005 SOL/signature, prioritization adjustable
+
 
 # Smart Contracts
 
