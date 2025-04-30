@@ -11,15 +11,11 @@
 CryptoSun is a renewable energy network bringing programmable Energy to Solana! The DePIN behind CryptoSun transforms tokenized energy into a working breathing token ecosystem. The CSN token is used in tandem with the DePIN system that coverts solar to powering crypto miners and repurposing miners heat. By harnessing these energies on Solanas network you can earn rewards by using the Absolute Solar DePIN packages! Developers and users can be empowered on the network the more they interact such as staking CSN, Voting, and programmer perks. 
 
 
-# Technical Details
+# Documentation
 
-    Blockchain: Solana
-    Throughput: ~65,000 TPS (peak 700,000 TPS)
-    Cryptography: Ed25519 (128-bit security)
-    Consensus: Proof of History (PoH) + Proof of Stake (PoS) + Tower BFT
-    Programming: Rust, compiled to BPF bytecode
-    Serialization: Borsh (150-200 byte tx size)
-    Fees: Base 0.000005 SOL/signature, prioritization adjustable
+Currently in Beta & Active development!
+No Audit yet!
+Do Not use in production!
 
 
 # Smart Contracts
