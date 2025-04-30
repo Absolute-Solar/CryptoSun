@@ -20,12 +20,12 @@ No Audit yet! <br>
 
 # Smart Contracts
 
-Token: Defines CSN (100M supply, 9 decimals, 1M CSN/year minting).
-Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor).
-Governance: 4M CSN, vested Months 13-24, 2/3 vote consensus.
-Burn: Reduces supply (e.g., 3.5M CSN/year by Year 6).
-Dividend: Airdrops based on Dividends through Company revenue.
-Future: Maintenance (IoT-driven), Energy trading (LMP pricing).
+Token: Defines CSN (100M supply, 9 decimals, 1M CSN/year minting). <br>
+Staking: Locks 42M CSN, rewards via Reward = 0.0001 · Stake · (EnergyFactor + UptimeFactor + MaintenanceFactor). <br>
+Governance: 4M CSN, vested Months 13-24, 2/3 vote consensus. <br>
+Burn: Reduces supply (e.g., 3.5M CSN/year by Year 6). <br>
+Dividend: Airdrops based on Dividends through Company revenue. <br>
+Future: Maintenance (IoT-driven), Energy trading (LMP pricing). <br>
 
 # References 
 <a>https://solana.stackexchange.com/</a><br>
