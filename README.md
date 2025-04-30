@@ -15,7 +15,7 @@ CryptoSun is a renewable energy network bringing programmable Energy to Solana! 
 
 🚧Currently in Beta & Active development!🚧<br>
 No Audit yet! <br>
-Do Not use in production! <br>
+❌Do Not use in production!❌ <br>
 
 
 # Smart Contracts
