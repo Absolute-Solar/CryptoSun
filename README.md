@@ -18,14 +18,9 @@ No Audit yet! <br>
 ❌Do Not use in production!❌ <br>
 
 
-# Smart Contracts
+# Deployed Contracts
 
 Token: Defines CSN Tokenomics. <br>
-Staking: Locks Staking Rewards. <br>
-Governance: Vote consensus. <br>
-Burn: Reduces supply. <br>
-Dividend: Airdrops based on buybacks. <br>
-Future: Maintenance, Energy trading. <br>
 
 # References 
 <a>https://solana.stackexchange.com/</a><br>
