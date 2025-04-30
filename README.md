@@ -18,7 +18,7 @@ No Audit yet! <br>
 ❌Do Not use in production!❌ <br>
 
 
-# Deployed Contracts
+# 📜Deployed Contracts📜
 
 Token: Defines CSN Tokenomics. <br>
 
