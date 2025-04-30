@@ -1,6 +1,6 @@
-# <p align="center">  CryptoSun (CSN) </p>
+# <p align="center"> CryptoSun Program Library </p>
 
-<p align="center"><img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeibpaqueerbadvpiamxqczpqbauxiteebdcrt2yakp3ul7dxtw4nr4" alt="CryptoSun Logo" width="300"></p>
+<p align="center"><img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafkreicnzpaug4uuvlcehputfus4slesveg4a6gx7y6ehafvqzvp5j2z44" alt="CryptoSun Logo" width="300"></p>
 
 
 # Overview
