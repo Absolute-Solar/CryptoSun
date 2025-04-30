@@ -67,8 +67,8 @@ Fork the repository and create a feature branch with your changes. Ensure code a
 <br>
 Security
 
-    Audits: Conducted by CyberScope and CertiK or reputable sources.
-    Bounties: Report vulnerabilities to earn $1,000-$50,000 (CSN).
+    Audits: None Yet.
+    Bounties: Report vulnerabilities to earn CSN.
     Contact: devnickk@proton.me
 
 # License
