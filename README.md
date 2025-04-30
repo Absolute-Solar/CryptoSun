@@ -19,7 +19,7 @@ Token: Defines CSN Tokenomics. <br>
 #Oracles
 In order to facilitate setting rewards and distributing rewards in a single Solana transaction, etc....
 
-# Codebase
+# Codebase:
 <h2>Prerequisites:</h2>
 
 <h2> Quickstart </h2>
