@@ -16,7 +16,7 @@ No Audit yet! <br>
 # 📜Deployed Contracts📜
 Token: Defines CSN Tokenomics. <br>
 
-#Oracles
+# Oracles
 
 # Codebase:
 <h2>Prerequisites:</h2>
