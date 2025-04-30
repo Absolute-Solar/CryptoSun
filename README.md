@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafkreicnzpaug4uuvlcehputfus4slesveg4a6gx7y6ehafvqzvp5j2z44" alt="CryptoSun Logo" width="100"></p>
 
-Design layout
+<h1> Design layout </h1>
 
 
 
