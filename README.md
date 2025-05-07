@@ -4,15 +4,11 @@
 [![Build Status](https://img.shields.io/github/workflow/status/cryptosun/cryptosun-program-library/CI)]()
 [![Latest Release](https://img.shields.io/github/v/release/cryptosun/cryptosun-program-library)]()
 
-The CryptoSun Program Library (CPL) is the core collection of Solana programs that power the CryptoSun renewable energy network. This repository contains the fundamental smart contracts that enable tokenized energy, DePIN infrastructure, and sustainable crypto mining on the Solana blockchain.
-
-## Overview
-
-CryptoSun is a revolutionary renewable energy network bringing programmable energy to the Solana blockchain. Our Decentralized Physical Infrastructure Network (DePIN) transforms tokenized energy into a thriving token ecosystem, creating a sustainable bridge between renewable resources and blockchain technology.
+The CryptoSun Program Library (CPL) is the core collection of Solana programs that power the CryptoSun renewable energy network. This repository contains the fundamental smart contracts that enable tokenized energy, DePIN infrastructure, and sustainable crypto mining on the Solana blockchain. CryptoSun is a revolutionary renewable energy network bringing programmable energy to the Solana blockchain. Our Decentralized Physical Infrastructure Network (DePIN) transforms tokenized energy into a thriving token ecosystem, creating a sustainable bridge between renewable resources and blockchain technology.
 
 ### Vision & Mission
 
-CryptoSun creates a self-sustaining ecosystem where solar energy directly powers blockchain infrastructure while repurposing waste heat, establishing a complete energy lifecycle on Solana. By tokenizing renewable energy and providing incentives for sustainable mining, we're building a greener future for blockchain technology.
+CryptoSun creates a self-sustaining ecosystem where solar energy directly powers blockchain infrastructure while repurposing wastede heat, establishing a complete energy lifecycle on Solana. By tokenizing renewable energy and providing incentives for sustainable mining/staking, we're building a greener future for blockchain technology. Users are able to benefit from various rewards systems by using the Physical Infrastructure which incentizes users to interact with the system to earn and lower heating bills.
 
 ### Core Components
 
@@ -31,7 +27,7 @@ The CryptoSun protocol is built as a collection of interdependent Solana program
 ```
 ┌─────────────────────────────┐     ┌─────────────────────────────┐
 │                             │     │                             │
-│    CSN Token Program        │◄────┤    Energy Oracle Program    │
+│      CSN Token Program      │◄────┤    Energy Oracle Program    │
 │                             │     │                             │
 └───────────┬─────────────────┘     └─────────────┬───────────────┘
             │                                     │
@@ -39,7 +35,7 @@ The CryptoSun protocol is built as a collection of interdependent Solana program
             ▼                                     ▼
 ┌─────────────────────────────┐     ┌─────────────────────────────┐
 │                             │     │                             │
-│    Staking Program          │     │    Mining Registry Program  │
+│      Staking Program        │     │    Mining Registry Program  │
 │                             │     │                             │
 └───────────┬─────────────────┘     └─────────────┬───────────────┘
             │                                     │
@@ -47,7 +43,7 @@ The CryptoSun protocol is built as a collection of interdependent Solana program
             ▼                                     ▼
 ┌─────────────────────────────┐     ┌─────────────────────────────┐
 │                             │     │                             │
-│    Governance Program       │◄────┤    Energy Market Program    │
+│      Governance Program     │◄────┤    Energy Market Program    │
 │                             │     │                             │
 └─────────────────────────────┘     └─────────────────────────────┘
 ```
@@ -55,7 +51,7 @@ The CryptoSun protocol is built as a collection of interdependent Solana program
 ### Data Flow
 
 1. **Energy Production**: Solar hardware produces energy and reports to the Energy Oracle
-2. **Tokenization**: The Oracle verifies energy data and mints CSN tokens
+2. **Tokenization**: The Oracle verifies energy data and calculates CSN tokens rewards
 3. **Mining**: Tokens power crypto mining operations
 4. **Heat Utilization**: Waste heat is captured and repurposed
 5. **Rewards**: Participants earn rewards based on energy contribution
@@ -74,27 +70,6 @@ The CryptoSun Program Library contains the following Solana programs:
 | Energy Market | P2P marketplace for tokenized energy | `emkt...` |
 | Governance | On-chain voting and proposal system | `govn...` |
 | Heat Recovery | Tracks and rewards waste heat utilization | `heat...` |
-
-## Token Economics
-
-The CSN token is the core utility token of the CryptoSun ecosystem:
-
-| Attribute | Value |
-|-----------|-------|
-| Token Name | CryptoSun Token |
-| Symbol | CSN |
-| Decimals | 9 |
-| Initial Supply | 100,000,000 CSN |
-| Max Supply | 1,000,000,000 CSN |
-| Emission Schedule | Dynamic based on energy production |
-
-### Token Distribution
-
-- **Energy Production**: 40% - Minted based on verified solar energy
-- **Development Fund**: 20% - Supporting ongoing development
-- **Community Treasury**: 15% - Controlled by governance
-- **Ecosystem Growth**: 15% - Partnerships and integrations
-- **Team**: 10% - 4-year vesting with 1-year cliff
 
 ## Getting Started
 
