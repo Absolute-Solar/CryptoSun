@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/github/workflow/status/cryptosun/cryptosun-program-library/CI)]()
-[![Latest Release]()](https://github.com/Absolute-Solar/CryptoSun-Program-Library/releases)
+[![Latest Release](https://img.shields.io/github/v/release/Absolute-Solar/CryptoSun-Program-Library)](https://github.com/Absolute-Solar/CryptoSun-Program-Library/releases)
 
 The CryptoSun Program Library (CPL) is the core collection of Solana programs that power the CryptoSun renewable energy network. This repository contains the fundamental smart contracts that enable tokenized energy, DePIN infrastructure, and sustainable crypto mining on the Solana blockchain. CryptoSun is a revolutionary renewable energy network bringing programmable energy to the Solana blockchain. Our Decentralized Physical Infrastructure Network (DePIN) transforms tokenized energy into a thriving token ecosystem, creating a sustainable bridge between renewable resources and blockchain technology.
 
