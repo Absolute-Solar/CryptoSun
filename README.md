@@ -79,7 +79,7 @@ To get started, clone the repository:
 
 ### Setting Up the Environment
 
-1.) Install Python: Ensure you have Python 3.8 or higher installed.
+1.) Install Python: Ensure you have Python 3.8 or higher installed.<br>
 2.) Create a Virtual Environment: 
     
     python -m venv venv
@@ -110,45 +110,49 @@ To get started, clone the repository:
 Open your browser and go to http://localhost:5000.
 
 
-
-Testing
+### Testing
 Run the tests to ensure your changes work:
-pytest
+
+    pytest
 
 Contributing
-We welcome contributions! Here’s how:
+We welcome contributions! Here’s how:<br>
 
-Fork the Repository: Click "Fork" on the repository page.
-Create a Branch: git checkout -b feature/your-feature-name
+1.) Fork the Repository: Click "Fork" on the repository page. <br>
+2.) Create a Branch: 
 
-
-Commit Your Changes: git commit -m "Add your descriptive message"
-
-
-Push to Your Fork: git push origin feature/your-feature-name
+    git checkout -b feature/your-feature-name
 
 
-Submit a Pull Request: Go to the original repository and click "New Pull Request."
+3.) Commit Your Changes: 
+
+    git commit -m "Add your descriptive message"
+
+
+4.) Push to Your Fork: 
+
+    git push origin feature/your-feature-name
+
+
+5.) Submit a Pull Request: Go to the original repository and click "New Pull Request."
 
 See CONTRIBUTING.md for more details.
-Troubleshooting
 
-Issue: ModuleNotFoundError: No module named 'cryptosun'  
-Solution: Activate the virtual environment and install dependencies.
+### Troubleshooting
+
+Issue: ModuleNotFoundError: No module named 'cryptosun' <br>
+Solution: Activate the virtual environment and install dependencies. <br>
+
+Issue: "Port already in use" <br>
+Solution: Change the port or stop the conflicting process. <br>
 
 
-Issue: "Port already in use"  
-Solution: Change the port or stop the conflicting process.
-
-
-
-Getting Help
+### Getting Help
 Questions or issues?  
 
-Check the FAQ  
-Search the issue tracker  
-Join our Discord server
-
+**Check the FAQ**
+**Search the issue tracker**  
+**Join our Discord server**
 
 
 ## Absolute Solar DePIN Packages
