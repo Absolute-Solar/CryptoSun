@@ -60,7 +60,7 @@ The CryptoSun Program Library Program IDs:
 | Governance | On-chain voting and proposal system | `govn...TBA` |
 | Heat Recovery | Tracks and rewards waste heat utilization | `heat...TBA` |
 
-## Getting Started
+## Interact with the Codebase
 
 ### Prerequisites
 
@@ -70,106 +70,86 @@ The CryptoSun Program Library Program IDs:
 - [Yarn](https://yarnpkg.com/) v3 or later
 - [Rust](https://www.rust-lang.org/tools/install) v1.68.0 or later
 
-### Installation
+Welcome to the CryptoSun project! This section guides you through interacting with our Python-based codebase, from cloning the repository to contributing your own changes.
 
-```bash
-# Clone the repository
-git clone https://github.com/cryptosun/cryptosun-program-library.git
-cd cryptosun-program-library
+### Cloning the Repository
+To get started, clone the repository:
 
-# Install dependencies
-yarn install
+    git clone https://github.com/yourusername/cryptosun.git
 
-# Build all programs
-yarn build
-```
+### Setting Up the Environment
 
-### Local Development
-
-```bash
-# Start a local Solana validator
-solana-test-validator
-
-# Deploy programs to localnet
-anchor deploy
-
-# Run integration tests
-yarn test
-```
-
-## Program Interactions
-
-### Token Program
-
-The CSN Token program implements the Solana SPL Token standard with additional energy-specific features:
-
-```rust
-// Example: Mint tokens based on energy production
-pub fn mint_from_energy(
-    ctx: Context<MintFromEnergy>,
-    energy_amount: u64,
-    timestamp: i64,
-    signature: [u8; 64],
-) -> Result<()> {
-    // Verify energy oracle signature
-    verify_oracle_signature(&ctx, energy_amount, timestamp, &signature)?;
+1.) Install Python: Ensure you have Python 3.8 or higher installed.
+2.) Create a Virtual Environment: 
     
-    // Calculate token amount from energy
-    let token_amount = calculate_token_from_energy(energy_amount);
-    
-    // Mint tokens to the producer
-    token::mint_to(
-        CpiContext::new_with_signer(
-            ctx.accounts.token_program.to_account_info(),
-            MintTo {
-                mint: ctx.accounts.mint.to_account_info(),
-                to: ctx.accounts.producer_token_account.to_account_info(),
-                authority: ctx.accounts.mint_authority.to_account_info(),
-            },
-            &[&[MINT_AUTHORITY_SEED, &[ctx.bumps.mint_authority]]],
-        ),
-        token_amount,
-    )?;
-    
-    Ok(())
-}
-```
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-### Energy Oracle Program
+3.) Install Dependencies: 
 
-The Energy Oracle program validates and records energy production from registered solar hardware:
+    pip install -r requirements.txt
 
-```rust
-// Example: Submit energy production data
-pub fn submit_energy_production(
-    ctx: Context<SubmitEnergyProduction>,
-    amount: u64,
-    timestamp: i64,
-    hardware_signature: [u8; 64],
-) -> Result<()> {
-    // Verify hardware is registered and signature is valid
-    verify_hardware_signature(
-        &ctx.accounts.hardware_registry,
-        &ctx.accounts.producer, 
-        amount, 
-        timestamp, 
-        &hardware_signature
-    )?;
-    
-    // Record energy production
-    let production = &mut ctx.accounts.energy_production;
-    production.amount = amount;
-    production.timestamp = timestamp;
-    production.producer = ctx.accounts.producer.key();
-    production.verified = true;
-    
-    // Generate oracle signature for token minting
-    let oracle_signature = generate_oracle_signature(amount, timestamp)?;
-    production.oracle_signature = oracle_signature;
-    
-    Ok(())
-}
-```
+4.) Configure Environment Variables: 
+
+**Copy .env.example to .env and fill in values (e.g., API keys).**
+
+
+### Running the Code
+
+1.) Navigate to the Project Directory: 
+
+    cd cryptosun
+
+
+2.) Run the Application: 
+
+    python main.py
+
+
+3. Access the Application: 
+Open your browser and go to http://localhost:5000.
+
+
+
+Testing
+Run the tests to ensure your changes work:
+pytest
+
+Contributing
+We welcome contributions! Here’s how:
+
+Fork the Repository: Click "Fork" on the repository page.
+Create a Branch: git checkout -b feature/your-feature-name
+
+
+Commit Your Changes: git commit -m "Add your descriptive message"
+
+
+Push to Your Fork: git push origin feature/your-feature-name
+
+
+Submit a Pull Request: Go to the original repository and click "New Pull Request."
+
+See CONTRIBUTING.md for more details.
+Troubleshooting
+
+Issue: ModuleNotFoundError: No module named 'cryptosun'  
+Solution: Activate the virtual environment and install dependencies.
+
+
+Issue: "Port already in use"  
+Solution: Change the port or stop the conflicting process.
+
+
+
+Getting Help
+Questions or issues?  
+
+Check the FAQ  
+Search the issue tracker  
+Join our Discord server
+
+
 
 ## Absolute Solar DePIN Packages
 
