@@ -194,10 +194,10 @@ CryptoSun provides a variety of hardware packages tailored for participants to j
 
 | Program | Audit Firm | Status | Report |
 |---------|------------|--------|--------|
-| CSN Token | [Audit Firm] | Completed | [Link to report] |
-| Energy Oracle | [Audit Firm] | In Progress | ETA: Q2 2025 |
-| Staking | [Audit Firm] | Completed | [Link to report] |
-| Others | - | Planned | Q3 2025 |
+| CSN Token | [TBA] | Planned | TBA: Q4 2025 |
+| Energy Oracle | [TBA] | Planned | TBA: Q4 2025 |
+| Staking | [TBA] | Planned | TBA: Q4 2025 |
+| Others | [TBA] | Planned | TBA: Q4 2025 |
 
 ### Security Features
 
