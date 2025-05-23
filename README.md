@@ -201,10 +201,10 @@ CryptoSun provides a variety of hardware packages tailored for participants to j
 
 ### Security Features
 
-- **Hardware Attestation**: Cryptographic verification of energy production hardware
-- **Multi-signature Control**: Critical protocol parameters protected by multi-sig
-- **Oracle Fault Tolerance**: Energy data validation through multiple data sources
-- **Rate Limiting**: Protection against flash attacks and manipulation
+1.) **Hardware Attestation**: Cryptographic verification of energy production hardware
+2.) **Multi-signature Control**: Critical protocol parameters protected by multi-sig
+3.) **Oracle Fault Tolerance**: Energy data validation through multiple data sources
+4.) **Rate Limiting**: Protection against flash attacks and manipulation
 
 ## Development
 
