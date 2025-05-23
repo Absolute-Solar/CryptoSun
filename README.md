@@ -277,64 +277,83 @@ CryptoSun programs implement the following upgradeability patterns:
 
 CryptoSun's commitment to sustainability is embedded in the protocol:
 
-1.) **Energy Efficiency Rewards**: Bonus rewards for more efficient mining setups
-2.) **Carbon Tracking**: On-chain tracking of carbon offset from solar usage
-3.) **Hardware Recycling**: Incentives for proper recycling of outdated hardware
-4.) **Community Sustainability Fund**: Portion of fees dedicated to environmental initiatives
+1.) **Energy Efficiency Rewards**: Bonus rewards for more efficient mining setups <br> 
+2.) **Carbon Tracking**: On-chain tracking of carbon offset from solar usage <br>
+3.) **Hardware Recycling**: Incentives for proper recycling of outdated hardware <br>
+4.) **Community Sustainability Fund**: Portion of fees dedicated to environmental initiatives 
 
 ## Integration & SDKs
 
+CryptoSun offers robust SDKs to interface with the Solana blockchain, enabling seamless interaction with the decentralized energy infrastructure network. Designed for developers building DePIN, IoT, and energy trading applications, the SDKs abstract smart contract interactions into simple, secure methods for registering miners, submitting energy data, and more.
+
 ### JavaScript/TypeScript SDK
+A lightweight SDK tailored for DApps and browser-based integrations using Solana’s Web3.js framework.
 
-```typescript
-import { Connection } from '@solana/web3.js';
-import { CryptoSun } from '@cryptosun/sdk';
-
-// Initialize client
-const connection = new Connection('https://api.mainnet-beta.solana.com');
-const cryptosun = new CryptoSun(connection);
-
-// Register a new solar miner
-await cryptosun.registerMiner({
-  hardwareId: 'SM-1000-XYZ',
-  capacity: 3000, // 3kW
-  location: { lat: 37.7749, lng: -122.4194 },
-});
-
-// Submit energy production
-await cryptosun.submitEnergyProduction({
-  amount: 15000, // 15 kWh
-  timestamp: Date.now(),
-  hardwareSignature: '...',
-});
-```
-
+typescript
+    
+    import { Connection } from '@solana/web3.js';
+    import { CryptoSun } from '@cryptosun/sdk';
+    
+    // Initialize connection to Solana Mainnet
+    const connection = new Connection('https://api.mainnet-beta.solana.com');
+    const cryptosun = new CryptoSun(connection);
+    
+    // Register a new solar miner to the network
+    await cryptosun.registerMiner({
+      hardwareId: 'SM-1000-XYZ',
+      capacity: 3000, // in watts (3 kW)
+      location: { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
+    });
+    
+    // Submit verified solar energy production data
+    await cryptosun.submitEnergyProduction({
+      amount: 15000, // energy in watt-hours (15 kWh)
+      timestamp: Date.now(),
+      hardwareSignature: '0xabc123...', // Ed25519 or oracle-verified
+    });
+    
 ### Rust Client
+Built for Solana-native integrations, the Rust client is ideal for backend services, on-chain analytics, and validator-level automation.
 
-```rust
-use cryptosun_client::{CryptoSunClient, SolarMiner, EnergyProduction};
-use solana_client::rpc_client::RpcClient;
+rust
 
-// Initialize client
-let rpc = RpcClient::new("https://api.mainnet-beta.solana.com".to_string());
-let client = CryptoSunClient::new(rpc);
+    use cryptosun_client::{CryptoSunClient, SolarMiner, EnergyProduction, Location};
+    use solana_client::rpc_client::RpcClient;
+    use chrono::Utc;
+    
+    // Connect to Solana Mainnet
+    let rpc = RpcClient::new("https://api.mainnet-beta.solana.com".to_string());
+    let client = CryptoSunClient::new(rpc);
+    
+    // Register a solar miner (with geolocation)
+    let miner = SolarMiner {
+        hardware_id: "SM-1000-XYZ".to_string(),
+        capacity: 3000, // in watts
+        location: Location { lat: 37.7749, lng: -122.4194 },
+    };
+    client.register_miner(miner)?;
+    
+    // Submit daily energy output with timestamp and oracle-based verification
+    let production = EnergyProduction {
+        amount: 15000, // 15 kWh
+        timestamp: Utc::now().timestamp(),
+        hardware_signature: vec![0x12, 0x34, 0x56], // Signed IoT data
+    };
+    client.submit_energy_production(production)?;
+    
+### Installation
+nginx
 
-// Register a new solar miner
-let miner = SolarMiner {
-    hardware_id: "SM-1000-XYZ".to_string(),
-    capacity: 3000, // 3kW
-    location: Location { lat: 37.7749, lng: -122.4194 },
-};
-client.register_miner(miner)?;
+    npm install @cryptosun/sdk
+or for Rust:
 
-// Submit energy production
-let production = EnergyProduction {
-    amount: 15000, // 15 kWh
-    timestamp: chrono::Utc::now().timestamp(),
-    hardware_signature: [/* ... */],
-};
-client.submit_energy_production(production)?;
-```
+toml
+
+    [dependencies]
+    cryptosun-client = "0.1"
+    
+### Full Documentation
+For more usage examples, integration patterns, and Oracle + IoT setup, visit: https://solarcrypto.ca/docs
 
 ## Roadmap
 
