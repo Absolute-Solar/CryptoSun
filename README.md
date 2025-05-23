@@ -150,8 +150,8 @@ Solution: Change the port or stop the conflicting process. <br>
 ### Getting Help
 Questions or issues?  
 
-**Check the FAQ**
-**Search the issue tracker**  
+**Check the FAQ** <br>
+**Search the issue tracker** <br>
 **Join our Discord server**
 
 
