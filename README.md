@@ -26,7 +26,8 @@ For the extensive detailed documentation, visit our docs page <a href="https://3
 The CryptoSun protocol is built as a collection of interdependent Solana programs:
 
 ```
-https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeia5u2n3eymylr2yvcznlhy6kr5tnjl2futh7hal4ahpagvcgswsgy
+<img https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeia5u2n3eymylr2yvcznlhy6kr5tnjl2futh7hal4ahpagvcgswsgy >
+
 ```
 
 ### Data Flow
