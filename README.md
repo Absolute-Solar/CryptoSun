@@ -12,10 +12,10 @@ The CryptoSun Program Library is the core collection of Solana programs that pow
 
 The CryptoSun DePIN ecosystem consists of several integrated components:
 
-1. **Energy Tokenization**: Convertible tokens representing solar energy units
-2. **Mining Operations**: Solar-powered crypto mining hardware
-3. **Heat Recovery**: Repurposing waste heat from mining operations
-4. **Reward Distribution**: Incentivizing network participation and growth
+1.) **Energy Tokenization**: Convertible tokens representing solar energy units
+2.) **Mining Operations**: Solar-powered crypto mining hardware
+3.) **Heat Recovery**: Repurposing waste heat from mining operations
+4.) **Reward Distribution**: Incentivizing network participation and growth
 
 ## Documentation
 For the extensive detailed documentation, visit our docs page <a href="https://3rdtest.webflow.io/docs/getting-started">ABS Docs</a>
@@ -255,12 +255,12 @@ cryptosun-program-library/
 
 ### Development Workflow
 
-1. **Feature Branches**: Create branches for new features or fixes
-2. **Testing**: All changes require tests with adequate coverage
-3. **Code Review**: At least two approvals needed for merges
-4. **CI/CD**: Automated testing and deployment pipeline
-5. **Documentation**: API docs generated and examples updated
-6. **Security**: Vulnerability scanning before release
+1.) **Feature Branches**: Create branches for new features or fixes
+2.) **Testing**: All changes require tests with adequate coverage
+3.) **Code Review**: At least two approvals needed for merges
+4.) **CI/CD**: Automated testing and deployment pipeline
+5.) **Documentation**: API docs generated and examples updated
+6.) **Security**: Vulnerability scanning before release
 
 ## Smart Contract Upgradeability
 
@@ -277,10 +277,10 @@ CryptoSun programs implement the following upgradeability patterns:
 
 CryptoSun's commitment to sustainability is embedded in the protocol:
 
-- **Energy Efficiency Rewards**: Bonus rewards for more efficient mining setups
-- **Carbon Tracking**: On-chain tracking of carbon offset from solar usage
-- **Hardware Recycling**: Incentives for proper recycling of outdated hardware
-- **Community Sustainability Fund**: Portion of fees dedicated to environmental initiatives
+1.) **Energy Efficiency Rewards**: Bonus rewards for more efficient mining setups
+2.) **Carbon Tracking**: On-chain tracking of carbon offset from solar usage
+3.) **Hardware Recycling**: Incentives for proper recycling of outdated hardware
+4.) **Community Sustainability Fund**: Portion of fees dedicated to environmental initiatives
 
 ## Integration & SDKs
 
