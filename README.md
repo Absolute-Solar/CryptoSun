@@ -75,7 +75,7 @@ Welcome to the CryptoSun project! This section guides you through interacting wi
 ### Cloning the Repository
 To get started, clone the repository:
 
-    git clone https://github.com/yourusername/cryptosun.git
+    git clone https://github.com/Absolute-Solar/CryptoSun-Program-Library.git
 
 ### Setting Up the Environment
 
