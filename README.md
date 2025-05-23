@@ -159,12 +159,12 @@ Questions or issues?
 
 CryptoSun provides a variety of hardware packages tailored for participants to join the network, contribute solar energy, and earn CSN tokens. Whether you're an individual exploring solar mining or a commercial operator aiming to scale, these packages offer flexible options to suit your needs. An optional add-on is also available to boost efficiency and rewards.
 
-| Package | Description | Energy Production | Reward Potential |
-|---------|-------------|-------------------|------------------|
-| Solar Miner Basic | 1kW solar + entry mining rig | ~4 kWh/day | ~10 CSN/day |
-| Solar Miner Pro | 3kW solar + mid-tier mining | ~12 kWh/day | ~35 CSN/day |
-| Solar Farm Node | 10kW+ commercial setup | ~40+ kWh/day | ~120+ CSN/day |
-| Heat Recovery Add-on | Waste heat utilization | N/A | +20% bonus |
+| Package | Description | Energy Production | Reward Potential | Additional Benefits |
+|---------|-------------|-------------------|------------------|---------------------|
+| Solar Miner Basic | Entry-level kit with a 1kW solar panel and basic mining rig | ~4 kWh/day | ~10 CSN/day | Perfect for beginners dipping into solar mining |
+| Solar Miner Pro | Mid-tier kit featuring a 3kW solar panel and enhanced mining rig | ~12 kWh/day | ~35 CSN/day | Great balance of output and rewards |
+| Solar Farm Node | Commercial-grade setup with a 10kW+ solar array and high-performance mining rig | ~40+ kWh/day | ~120+ CSN/day | Scalable for large-scale operations |
+| Heat Recovery Add-on | Optional upgrade that captures and repurposes waste heat from mining | N/A | +20% bonus | Enhances efficiency and sustainability for any package |
 
 ## Deployments
 
