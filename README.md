@@ -46,7 +46,7 @@ Participants like you earn CSN tokens based on the energy you contribute. The mo
 6.) **Governance and Participation**
 Holding CSN tokens gives you a say in the project’s future. Vote on protocol upgrades and improvements, ensuring CryptoSun evolves with the community’s vision at its core. <br>
 
-## Programs
+## Deployed Contracts
 
 The CryptoSun Program Library Program IDs:
 
