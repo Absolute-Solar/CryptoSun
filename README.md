@@ -21,9 +21,9 @@ The CryptoSun DePIN ecosystem consists of several integrated components:
 ## Documentation
 For the extensive detailed documentation, visit our docs page <a href="https://3rdtest.webflow.io/docs/getting-started">ABS Docs</a>
 
-## Overview
+### Overview
 
-The CryptoSun protocol is built as a collection of interdependent Solana programs:
+The CryptoSun protocol is built as a collection of interdependent Solana programs. These contracts work in tandem to produce a Solana token and a DePIN infrastucture. 
 
 <img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeia5u2n3eymylr2yvcznlhy6kr5tnjl2futh7hal4ahpagvcgswsgy" alt="flow">
 
