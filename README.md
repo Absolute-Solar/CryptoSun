@@ -377,13 +377,6 @@ For more usage examples, integration patterns, and Oracle + IoT setup, visit: ht
 - [ ] Carbon credit integration
 - [ ] AI-optimized energy distribution
 
-## Community & Ecosystem
-
-- [Website](https://3rdtest.webflow.io/)
-- [Discord](https://discord.gg/2kAqZHr3yW)
-- [ X ](https://twitter.com/cryptosun)
-- [Telegram](https://t.me/cryptosun)
-- [Developer Forum](https://forum.cryptosun.io)
 
 ## Contributing
 
@@ -391,12 +384,12 @@ We welcome contributions to the CryptoSun Program Library! Please check our [Con
 
 ### Contribution Process
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Run tests locally (`yarn test`)
-4. Commit your changes (`git commit -m 'Add amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+1.) Fork the repository
+2.) Create your feature branch (`git checkout -b feature/amazing-feature`)
+3.) Run tests locally (`yarn test`)
+4.) Commit your changes (`git commit -m 'Add amazing feature'`)
+5.) Push to the branch (`git push origin feature/amazing-feature`)
+6.) Open a Pull Request
 
 ## License
 
