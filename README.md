@@ -21,32 +21,12 @@ The CryptoSun DePIN ecosystem consists of several integrated components:
 ## Documentation
 For the extensive detailed documentation, visit our docs page <a href="https://3rdtest.webflow.io/docs/getting-started">ABS Docs</a>
 
-## Architecture
+## Overview
 
 The CryptoSun protocol is built as a collection of interdependent Solana programs:
 
 ```
-┌─────────────────────────────┐     ┌─────────────────────────────┐
-│                             │     │                             │
-│      CSN Token Program      │◄────┤    Energy Oracle Program    │
-│                             │     │                             │
-└───────────┬─────────────────┘     └─────────────┬───────────────┘
-            │                                     │
-            │                                     │
-            ▼                                     ▼
-┌─────────────────────────────┐     ┌─────────────────────────────┐
-│                             │     │                             │
-│      Staking Program        │     │    Mining Registry Program  │
-│                             │     │                             │
-└───────────┬─────────────────┘     └─────────────┬───────────────┘
-            │                                     │
-            │                                     │
-            ▼                                     ▼
-┌─────────────────────────────┐     ┌─────────────────────────────┐
-│                             │     │                             │
-│      Governance Program     │◄────┤    Energy Market Program    │
-│                             │     │                             │
-└─────────────────────────────┘     └─────────────────────────────┘
+https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafybeia5u2n3eymylr2yvcznlhy6kr5tnjl2futh7hal4ahpagvcgswsgy
 ```
 
 ### Data Flow
