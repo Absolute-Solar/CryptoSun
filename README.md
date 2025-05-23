@@ -24,7 +24,7 @@ For the extensive detailed documentation, visit our docs page <a href="https://3
 
 The CryptoSun protocol is built as a collection of interdependent Solana programs. These contracts work in tandem to produce a Solana token and a DePIN infrastucture. Interconnection between Applications, Smart Contracts, and Core Ecosystem componets are displayed:
 
-<img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafkreigstoi76d6uqupolqvsuhru56usfpk5oheyrohslcz7cawgzkio5q" alt="flow">
+<img src="https://yellow-negative-parrotfish-381.mypinata.cloud/ipfs/bafkreiaa5pibnbyylscupu333zu3cnebxisriz3zo6cjw3gplah32kt77e" alt="flow">
 
 ### Data Flow
 
