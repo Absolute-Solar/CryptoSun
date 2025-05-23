@@ -28,12 +28,18 @@ The CryptoSun protocol is built as a collection of interdependent Solana program
 
 ### Data Flow
 
-1. **Energy Production**: Solar hardware produces energy and reports to the Energy Oracle
-2. **Tokenization**: The Oracle verifies energy data and calculates CSN tokens rewards
-3. **Mining**: Tokens power crypto mining operations
-4. **Heat Utilization**: Waste heat is captured and repurposed
-5. **Rewards**: Participants earn rewards based on energy contribution
-6. **Governance**: Token holders vote on protocol improvements
+1.) **Solar Power Generation**
+Our cutting-edge solar hardware captures sunlight and converts it into clean energy. This energy production is securely tracked and sent to the Energy Oracle for verification in real time.
+2.) **Tokenization of Energy**
+The Energy Oracle processes the energy data, ensuring its accuracy, and calculates the CSN token rewards based on how much energy you’ve produced. It’s a fair and transparent way to turn kilowatts into tokens.
+3.) **Powering Crypto Mining**
+Your CSN tokens fuel our cryptocurrency mining operations, generating valuable digital assets. This process also produces heat—a byproduct we refuse to let go to waste.
+4.) **Repurposing Waste Heat**
+We capture the heat from mining and put it to good use, whether it’s heating buildings, warming water, or other practical applications. Efficiency is the name of the game.
+5.) **Earning Rewards**
+Participants like you earn CSN tokens based on the energy you contribute. The more clean energy you generate, the more rewards you take home—motivating sustainability every step of the way.
+6.) **Governance and Participation**
+Holding CSN tokens gives you a say in the project’s future. Vote on protocol upgrades and improvements, ensuring CryptoSun evolves with the community’s vision at its core.
 
 ## Programs
 
