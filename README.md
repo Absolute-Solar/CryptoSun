@@ -5,6 +5,8 @@
 [![Website](https://img.shields.io/badge/website-visit-darkgreen)](https://3rdtest.webflow.io/)
 [![Discord](https://img.shields.io/badge/Join%20Server-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/2kAqZHr3yW)
 [![X](https://img.shields.io/badge/@CryptoSun_CSN-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/CryptoSun_CSN)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/absolutesolar)
+
 
 The CryptoSun Program Library is the core collection of Solana programs that power the CryptoSun renewable energy network. These core programs create a strong foundation of code for renewable transactions on the solana network. This unleashes the untapped power of solar energy into the crypto space. Repurposed heat now becomes a lifeline of the digital crypto ecosystem backing CryptoSun with real-world energy. User benefit through various rewards for being renewable.
 
@@ -377,9 +379,9 @@ For more usage examples, integration patterns, and Oracle + IoT setup, visit: ht
 
 ## Community & Ecosystem
 
-- [Website](https://cryptosun.io)
-- [Discord](https://discord.gg/cryptosun)
-- [Twitter](https://twitter.com/cryptosun)
+- [Website](https://3rdtest.webflow.io/)
+- [Discord](https://discord.gg/2kAqZHr3yW)
+- [ X ](https://twitter.com/cryptosun)
 - [Telegram](https://t.me/cryptosun)
 - [Developer Forum](https://forum.cryptosun.io)
 
