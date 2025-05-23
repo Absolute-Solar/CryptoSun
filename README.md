@@ -157,7 +157,7 @@ Questions or issues?
 
 ## Absolute Solar DePIN Packages
 
-CryptoSun offers hardware packages for participants to join the network:
+CryptoSun provides a variety of hardware packages tailored for participants to join the network, contribute solar energy, and earn CSN tokens. Whether you're an individual exploring solar mining or a commercial operator aiming to scale, these packages offer flexible options to suit your needs. An optional add-on is also available to boost efficiency and rewards.
 
 | Package | Description | Energy Production | Reward Potential |
 |---------|-------------|-------------------|------------------|
