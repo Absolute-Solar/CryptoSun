@@ -237,9 +237,20 @@ cryptosun-program-library/
 │   ├── architecture/
 │   ├── api/
 │   └── examples/
-└── packages/
-    ├── common/
-    └── types/
+├── packages/
+│    ├── common/
+│    └── types/
+│
+│── Migrations/
+│	└── deploy.ts
+│
+│── Target/
+│
+│── Anchor.toml
+│── Cargo.toml
+│── README.md
+│── SECURITY.md
+
 ```
 
 ### Development Workflow
