@@ -16,7 +16,6 @@ The CryptoSun DePIN ecosystem consists of several integrated components:
 2. **Mining Operations**: Solar-powered crypto mining hardware
 3. **Heat Recovery**: Repurposing waste heat from mining operations
 4. **Reward Distribution**: Incentivizing network participation and growth
-5. **Governance**: Community-led decision making
 
 ## Documentation
 For the extensive detailed documentation, visit our docs page <a href="https://3rdtest.webflow.io/docs/getting-started">ABS Docs</a>
