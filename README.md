@@ -357,19 +357,19 @@ For more usage examples, integration patterns, and Oracle + IoT setup, visit: ht
 
 ## Roadmap
 
-### Current Phase (Q2 2025)
-- [x] Core token and energy oracle implementation
-- [x] Basic staking functionality
-- [x] Mining registry
+### Current Phase (Q4 2025)
+- [ ] Core token and energy oracle implementation
+- [ ] Basic staking functionality
+- [ ] Mining registry
 - [ ] Energy marketplace MVP
 
-### Next Phase (Q3-Q4 2025)
+### Next Phase (Q2 2026)
 - [ ] Enhanced heat recovery tracking
 - [ ] Cross-chain energy bridges
 - [ ] Advanced governance features
 - [ ] Regional energy marketplaces
 
-### Future Development (2026+)
+### Future Development (2027+)
 - [ ] Additional renewable sources (wind, hydro)
 - [ ] Energy derivatives and futures
 - [ ] Carbon credit integration
