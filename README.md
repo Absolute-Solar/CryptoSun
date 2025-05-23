@@ -242,14 +242,14 @@ cryptosun-program-library/
 │    └── types/
 │
 │── Migrations/
-│	└── deploy.ts
+│	 └── deploy.ts
 │
 │── Target/
 │
 │── Anchor.toml
 │── Cargo.toml
 │── README.md
-│── SECURITY.md
+└── SECURITY.md
 
 ```
 
