@@ -1,4 +1,4 @@
-# CryptoSun Program Library (CPL)
+# CryptoSun Program Library
 
 [![Latest Release](https://img.shields.io/github/v/release/Absolute-Solar/CryptoSun-Program-Library)](https://github.com/Absolute-Solar/CryptoSun-Program-Library/releases)
 [![docs](https://img.shields.io/badge/docs-V1.0.0-darkblue)](https://github.com/Absolute-Solar/Docs)
@@ -6,13 +6,9 @@
 [![Discord](https://img.shields.io/badge/Join%20Server-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/2kAqZHr3yW)
 [![X](https://img.shields.io/badge/@CryptoSun_CSN-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/CryptoSun_CSN)
 
-The CryptoSun Program Library (CPL) is the core collection of Solana programs that power the CryptoSun renewable energy network. This repository contains the fundamental smart contracts that enable tokenized energy, DePIN infrastructure, and sustainable crypto mining on the Solana blockchain. CryptoSun is a revolutionary renewable energy network bringing programmable energy to the Solana blockchain. Our Decentralized Physical Infrastructure Network (DePIN) transforms tokenized energy into a thriving token ecosystem, creating a sustainable bridge between renewable resources and blockchain technology.
+The CryptoSun Program Library is the core collection of Solana programs that power the CryptoSun renewable energy network. These core programs create a strong foundation of code for renewable transactions on the solana network. This unleashes the untapped power of solar energy into the crypto space. Repurposed heat now becomes a lifeline of the digital crypto ecosystem backing CryptoSun with real-world energy. User benefit through various rewards for being renewable.
 
-### Vision & Mission
-
-CryptoSun creates a self-sustaining ecosystem where solar energy directly powers blockchain infrastructure while repurposing wastede heat, establishing a complete energy lifecycle on Solana. By tokenizing renewable energy and providing incentives for sustainable mining/staking, we're building a greener future for blockchain technology. Users are able to benefit from various rewards systems by using the Physical Infrastructure which incentizes users to interact with the system to earn and lower heating bills.
-
-### Core Components
+## Core Components
 
 The CryptoSun DePIN ecosystem consists of several integrated components:
 
@@ -21,6 +17,9 @@ The CryptoSun DePIN ecosystem consists of several integrated components:
 3. **Heat Recovery**: Repurposing waste heat from mining operations
 4. **Reward Distribution**: Incentivizing network participation and growth
 5. **Governance**: Community-led decision making
+
+## Documentation
+For the extensive detailed documentation, visit our docs page <a>https://3rdtest.webflow.io/docs/getting-started</a>
 
 ## Architecture
 
