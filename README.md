@@ -384,11 +384,11 @@ We welcome contributions to the CryptoSun Program Library! Please check our [Con
 
 ### Contribution Process
 
-1.) Fork the repository
-2.) Create your feature branch (`git checkout -b feature/amazing-feature`)
-3.) Run tests locally (`yarn test`)
-4.) Commit your changes (`git commit -m 'Add amazing feature'`)
-5.) Push to the branch (`git push origin feature/amazing-feature`)
+1.) Fork the repository <br>
+2.) Create your feature branch (`git checkout -b feature/amazing-feature`) <br>
+3.) Run tests locally (`yarn test`) <br>
+4.) Commit your changes (`git commit -m 'Add amazing feature'`) <br>
+5.) Push to the branch (`git push origin feature/amazing-feature`) <br>
 6.) Open a Pull Request
 
 ## License
