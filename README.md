@@ -255,11 +255,11 @@ cryptosun-program-library/
 
 ### Development Workflow
 
-1.) **Feature Branches**: Create branches for new features or fixes
-2.) **Testing**: All changes require tests with adequate coverage
-3.) **Code Review**: At least two approvals needed for merges
-4.) **CI/CD**: Automated testing and deployment pipeline
-5.) **Documentation**: API docs generated and examples updated
+1.) **Feature Branches**: Create branches for new features or fixes <br>
+2.) **Testing**: All changes require tests with adequate coverage <br>
+3.) **Code Review**: At least two approvals needed for merges <br>
+4.) **CI/CD**: Automated testing and deployment pipeline <br>
+5.) **Documentation**: API docs generated and examples updated <br>
 6.) **Security**: Vulnerability scanning before release
 
 ## Smart Contract Upgradeability
@@ -268,10 +268,10 @@ CryptoSun programs implement the following upgradeability patterns:
 
 | Program | Upgrade Method | Authority |
 |---------|---------------|-----------|
-| CSN Token | Upgradable BPF | Governance multi-sig |
-| Energy Oracle | Upgradable BPF | Governance multi-sig |
-| Staking | Proxy pattern | Governance multi-sig |
-| Others | Upgradable BPF | Governance multi-sig |
+| CSN Token | Upgradable BPF | Governance multi-sig or Treasury multi-sig |
+| Energy Oracle | Upgradable BPF | Governance multi-sig or Treasury multi-sig |
+| Staking | Proxy pattern | Governance multi-sig or Treasury multi-sig |
+| Others | Upgradable BPF | Governance multi-sig or Treasury multi-sig |
 
 ## Energy Sustainability
 
