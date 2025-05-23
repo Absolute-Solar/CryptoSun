@@ -172,21 +172,21 @@ CryptoSun provides a variety of hardware packages tailored for participants to j
 
 | Program | Address | Version |
 |---------|---------|---------|
-| CSN Token | `csn1...` | v1.0.0 |
-| Energy Oracle | `eorg...` | v1.0.0 |
-| Staking | `stak...` | v1.0.0 |
-| Mining Registry | `minr...` | v1.0.0 |
-| Energy Market | `emkt...` | v1.0.0 |
+| CSN Token | `cs1...TBA` | vT.B.A |
+| Energy Oracle | `eorg...TBA` | vT.B.A |
+| Staking | `stak...TBA` | vT.B.A |
+| Mining Registry | `minr...TBA` | vT.B.A |
+| Energy Market | `emkt...TBA` | vT.B.A |
 
 ### Devnet
 
 | Program | Address | Version |
 |---------|---------|---------|
-| CSN Token | `devcsn1...` | v1.0.0 |
-| Energy Oracle | `deveorg...` | v1.0.0 |
-| Staking | `devstak...` | v1.0.0 |
-| Mining Registry | `devminr...` | v1.0.0 |
-| Energy Market | `devemkt...` | v1.0.0 |
+| CSN Token | `mntSrBkaf8fP9MpmYFGtfF2J9gKGt9PVyLB4mJeSsEn` | v1.0.0 |
+| Energy Oracle | `eorg...TBA` | vT.B.A |
+| Staking | `stak...TBA` | vT.B.A |
+| Mining Registry | `minr...TBA` | vT.B.A |
+| Energy Market | `emkt...TBA` | vT.B.A |
 
 ## Security
 
