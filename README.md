@@ -48,17 +48,17 @@ Holding CSN tokens gives you a say in the project’s future. Vote on protocol u
 
 ## Programs
 
-The CryptoSun Program Library contains the following Solana programs:
+The CryptoSun Program Library Program IDs:
 
 | Program | Description | Program ID |
 |---------|-------------|------------|
-| CSN Token | Core token implementation with energy attributes | `csn1...` |
-| Energy Oracle | Connects real-world energy data to the blockchain | `eorg...` |
-| Staking | CSN token staking and rewards distribution | `stak...` |
-| Mining Registry | Registers and tracks mining hardware | `minr...` |
-| Energy Market | P2P marketplace for tokenized energy | `emkt...` |
-| Governance | On-chain voting and proposal system | `govn...` |
-| Heat Recovery | Tracks and rewards waste heat utilization | `heat...` |
+| CSN Token | Core token implementation with energy attributes | `csn1...TBA` |
+| Energy Oracle | Connects real-world energy data to the blockchain | `eorg...TBA` |
+| Staking | CSN token staking and rewards distribution | `stak...TBA` |
+| Mining Registry | Registers and tracks mining hardware | `minr...TBA` |
+| Energy Market | P2P marketplace for tokenized energy | `emkt...TBA` |
+| Governance | On-chain voting and proposal system | `govn...TBA` |
+| Heat Recovery | Tracks and rewards waste heat utilization | `heat...TBA` |
 
 ## Getting Started
 
